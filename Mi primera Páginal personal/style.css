@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+.barraNavegacion {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5%;
+  padding-left: 2%;
+  overflow: hidden;
+  background-color: #333;
+}
+.barraNavegacion ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.barraNavegacion li {
+  float: left;
+}
+.opciones {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.logo {
+  height: 75%;
+  width: 75%;
+}
+.navRight {
+  float: right;
+  padding: 1%;
+  width: 18%;
+}
+.inicioSesion {
+  padding-right: 8%;
+}
+.logIn,
+.btonReset {
+  background-color: #d9eee1;
+  border-color: #d9eee1;
+  border-style: dashed;
+}
+.signUp,
+.btonEnvio {
+  background-color: #04aa6d;
+  color: white;
+  border-color: #04aa6d;
+  border-style: dashed;
+}
+.idioma {
+  background-color: #9763f6;
+  border-color: #9763f6;
+  border-style: dashed;
+}
+
+.tituloPrincipal {
+  background-image: url("img/22379926_6560061.jpeg");
+  background-color: #cccccc;
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 498%;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 169%;
+  color: #fff4a3;
+}
+
+.textoPrincipal {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.imgProgramando {
+  padding-left: 10%;
+  float: left;
+}
+
+.form {
+  width: 40%;
+  margin-top: 5%;
+  float: right;
+  line-height: 3;
+}
+
+table {
+  margin-top: 28%;
+  padding-left: 10%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15%;
+  padding: 1%;
+  color: white;
+  background-color: #333;
+}
+
+iframe {
+  right: 0px;
+}

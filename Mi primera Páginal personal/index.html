@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>W3schools Online Web</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="barraNavegacion">
+        <li>
+          <img
+            src="/Libre Configuracion/Mi primera Páginal personal/img/letra-w.png"
+            alt="logo"
+            class="logo"
+          />
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/html/default.asp" class="opciones"
+            >HTML</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/css/default.asp" class="opciones"
+            >CSS</a
+          >
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/js/default.asp" class="opciones"
+            >JavaScript</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.w3schools.com/python/default.asp"
+            class="opciones"
+            >Python</a
+          >
+        </li>
+        <div class="navRight">
+          <li class="inicioSesion">
+            <button class="signUp">Registrarse</button>
+            <button class="logIn">Iniciar sesión</button>
+          </li>
+          <li>
+            <select name="idioma" id="idioma" class="idioma">
+              <option value="castellano">Castellano</option>
+              <option value="ingles">Inglés</option>
+              <option value="aleman">Alemán</option>
+              <option value="arabe">Árabe</option>
+            </select>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="tituloPrincipal">
+        <div class="textoPrincipal">
+          <h1>Aprende a programar</h1>
+          <h2>Con el sitio web de desarrolladores más grande del mundo.</h2>
+          <form action="#">
+            <input type="text" placeholder="Buscar lenguaje" />
+          </form>
+        </div>
+      </div>
+      <div class="contForm">
+        <img
+          src="/Libre Configuracion/Mi primera Páginal personal/img/Pair-programming.png"
+          alt="programando"
+          class="imgProgramando"
+          width="40%"
+        />
+        <form action="#" target="_self" method="post" class="form">
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" name="nombre" /><br />
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="apellidos" name="apellidos" /><br />
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required /><br />
+          <label for="nacimiento">Fecha de nacimiento</label>
+          <input type="date" id="nacimiento" name="nacimiento" /><br />
+          <label for="tipoCliente">Sector al que pertenece:</label><br />
+          <input type="radio" id="sector" name="sector" value="estudiante" />
+          <label for="html">Estudiante</label><br />
+          <input type="radio" id="sector" name="sector" value="profesorado" />
+          <label for="profesor">Profesorado</label><br />
+          <input type="submit" value="Enviar" class="btonEnvio" />
+          <input type="reset" value="Resetear" class="btonReset" />
+        </form>
+      </div>
+      <div class="tabla">
+        <table>
+          <tr>
+            <th></th>
+            <th>Lunes</th>
+            <th>Miercoles</th>
+            <th>Viernes</th>
+          </tr>
+          <tr>
+            <td>18:00</td>
+
+            <td>Maria Anders</td>
+            <td>Adrián Sigüenza</td>
+            <td>Álvaro Sánchez</td>
+          </tr>
+          <tr>
+            <td>19:00</td>
+            <td>Maria Anders</td>
+            <td>Álvaro Sánchez</td>
+            <td>Adrián Sigüenza</td>
+          </tr>
+          <tr>
+            <td>20:00</td>
+            <td>Álvaro Sánchez</td>
+            <td>Adrián Sigüenza</td>
+            <td>Adrián Sigüenza</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2063.61552997977!2d5.740003777361157!3d58.8540128489763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463a37bfa9bfc631%3A0xadc244dd6a468008!2sW3Schools!5e0!3m2!1ses!2ses!4v1696367853690!5m2!1ses!2ses"
+        width="20%"
+        height="30%"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <p>Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
