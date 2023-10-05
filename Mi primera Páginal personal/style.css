@@ -94,6 +94,8 @@ h2 {
   height: 50%;
 }
 .form {
+  width: 50%;
+  display: inline-block;
 }
 .tabla {
   place-items: center;
