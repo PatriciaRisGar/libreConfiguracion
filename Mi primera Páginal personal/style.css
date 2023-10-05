@@ -23,7 +23,6 @@ body {
 .opciones {
   display: block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -37,7 +36,7 @@ li a:hover {
 .navRight {
   float: right;
   padding: 1%;
-  width: 18%;
+  width: 20%;
 }
 .inicioSesion {
   padding-right: 8%;
@@ -64,7 +63,7 @@ li a:hover {
 .tituloPrincipal {
   background-image: url("img/22379926_6560061.jpeg");
   background-color: #cccccc;
-  height: 900px;
+  height: 65em;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -87,27 +86,35 @@ h2 {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-.imgProgramando {
-}
 .contForm {
-  height: 50%;
+  display: flex;
 }
-.form {
+img {
   width: 50%;
-  display: inline-block;
 }
-.tabla {
-  place-items: center;
+
+form {
+  padding: 10%;
+  text-align: left;
+  line-height: 4;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding-right: 4%;
 }
 footer {
   text-align: center;
-  margin-top: 15%;
-  padding: 1%;
+  margin-top: 5%;
+  padding: 2%;
   color: white;
   background-color: #333;
-}
-
-iframe {
-  right: 0px;
+  display: block;
 }
