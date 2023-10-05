@@ -89,22 +89,15 @@ h2 {
 }
 
 .imgProgramando {
-  padding-left: 10%;
-  float: left;
 }
-
+.contForm {
+  height: 50%;
+}
 .form {
-  width: 40%;
-  margin-top: 5%;
-  float: right;
-  line-height: 3;
 }
-
-table {
-  margin-top: 28%;
-  padding-left: 10%;
+.tabla {
+  place-items: center;
 }
-
 footer {
   text-align: center;
   margin-top: 15%;
