@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<!DOCTYPE empresa SYSTEM "./empresa.dtd">
+
+
+<empresa>
+  <departamentoInformatica>
+    <empleado>
+      <nombre>Ricardo</nombre>
+      <apellidos>Rodriguez Garcia</apellidos>
+      <cargo>Secretario</cargo>
+      <telefonoMovil>722894367</telefonoMovil>
+      <telefonoFijo>955789823</telefonoFijo>
+    </empleado>
+    <empleado>
+      <nombre>Javi</nombre>
+      <apellidos>Garcia Rodriguez</apellidos>
+      <cargo>Secretario</cargo>
+      <telefonoMovil>636887367</telefonoMovil>
+      <telefonoFijo>954657243</telefonoFijo>
+    </empleado>
+  </departamentoInformatica>
+  
+  <departamentoPeople>
+    <empleado>
+      <nombre>Manuel</nombre>
+      <apellidos>Diaz Garcia</apellidos>
+      <cargo>RRHH Senior</cargo>
+      <telefonoMovil>722894367</telefonoMovil>
+      <telefonoFijo>955789823</telefonoFijo>
+    </empleado>
+    <empleado>
+      <nombre>Sandra</nombre>
+      <apellidos>Garcia González</apellidos>
+      <cargo>RRHH Junior</cargo>
+      <telefonoMovil>636887367</telefonoMovil>
+      <telefonoFijo>954657243</telefonoFijo>
+    </empleado>
+  </departamentoPeople>
+</empresa>

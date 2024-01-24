@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone='no'?>
+<!DOCTYPE clubPadel SYSTEM './clubPadel.dtd' >
+
+<clubPadel>
+  <persona genero='Femenino' id='1'>
+    <nombre>Alberto</nombre>
+    <apellido1>Ruiz</apellido1>
+    <telefono>650596413 609453423</telefono>
+    <correo>aruiz@gmail.com aruiz@hotmail.com</correo>
+    <socio>Si</socio>
+  </persona>
+  <persona genero='Masculino' id='2'>
+    <nombre>Antonio</nombre>
+    <apellido1>Parez</apellido1>
+    <apellido2>Chicón</apellido2>
+    <correo>aperez@gmail.com</correo>
+    <socio>No</socio>
+  </persona>
+  <persona genero='Masculino' id='2'>
+    <nombre>Amapola</nombre>
+    <apellido2>Chicón</apellido2>
+    <correo>achicon@gmail.com</correo>
+    <socio>No</socio>
+  </persona>
+</clubPadel>

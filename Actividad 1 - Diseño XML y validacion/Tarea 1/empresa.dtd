@@ -1,0 +1,9 @@
+<!ELEMENT empresa ((departamentoInformatica)?, (departamentoPeople)?)>
+<!ELEMENT departamentoInformatica (empleado+)>
+<!ELEMENT departamentoPeople (empleado+)>
+<!ELEMENT empleado (nombre,apellidos,cargo,telefonoMovil,telefonoFijo?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT cargo (#PCDATA)>
+<!ELEMENT telefonoMovil (#PCDATA)>
+<!ELEMENT telefonoFijo (#PCDATA)>

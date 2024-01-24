@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	display: block;
+}
+
+departamentoInformatica {
+	width: 500px;
+	padding: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: solid 3px black;
+}
+departamentoInformatica:before {
+	display: block;
+	content: "Departamento Informatica";
+	color: white;
+	background-color: black;
+	width: 350px;
+}
+
+departamentoPeople {
+	width: 500px;
+	padding: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: solid 3px black;
+}
+departamentoPeople:before {
+	display: block;
+	content: "Departamento People";
+	color: white;
+	background-color: black;
+	width: 200px;
+}
+
+empleado {
+	border: solid 1px black;
+}
+
+nombre {
+	font-weight: bolder;
+	display: inline;
+}
+apellidos {
+	font-weight: bolder;
+	display: inline;
+}
